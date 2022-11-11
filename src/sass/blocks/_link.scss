@@ -1,0 +1,9 @@
+.link {
+  font-size: 18px;
+  line-height: 1.3;
+  font-weight: 600;
+  color: $white;
+  text-decoration: none;
+
+  @extend %bottom-line;
+}
