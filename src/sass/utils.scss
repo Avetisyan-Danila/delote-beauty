@@ -1,0 +1,15 @@
+.spacer {
+  padding-top: 170px;
+
+  @media (max-width: $xl) {
+    padding-top: 140px;
+  }
+
+  @media (max-width: $lg) {
+    padding-top: 90px;
+  }
+
+  @media (max-width: $md) {
+    padding-top: 60px;
+  }
+}
