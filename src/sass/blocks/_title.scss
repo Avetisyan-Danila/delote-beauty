@@ -1,5 +1,5 @@
 .title {
-  &_large {
+  &--large {
     font-family: 'Garamond', 'Arial', sans-serif;
     line-height: 1.2;
     font-size: 72px;
@@ -9,13 +9,13 @@
     }
   }
 
-  &_medium {
+  &--medium {
     font-family: 'Garamond', 'Arial', sans-serif;
     line-height: 1.2;
     font-size: 48px;
   }
 
-  &_small {
+  &--small {
     font-family: 'Garamond', 'Arial', sans-serif;
     line-height: 1.2;
     font-size: 24px;

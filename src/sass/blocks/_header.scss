@@ -27,30 +27,31 @@
 .header__instagram {
   transition: 0.4s ease;
 
-  &:hover {
-    transform: scale(1.1);
-  }
-
   stop {
     transition: 0.3s ease;
   }
-  svg:hover stop:nth-child(1) {
-    stop-color: #fdf497;
-  }
 
-  svg:hover stop:nth-child(2) {
-    stop-color: #fdf497;
-  }
+  &:hover {
+    transform: scale(1.1);
 
-  svg:hover stop:nth-child(3) {
-    stop-color: #fd5949;
-  }
+    svg stop:nth-child(1) {
+      stop-color: #fdf497;
+    }
 
-  svg:hover stop:nth-child(4) {
-    stop-color: #d6249f;
-  }
+    svg stop:nth-child(2) {
+      stop-color: #fdf497;
+    }
 
-  svg:hover stop:nth-child(5) {
-    stop-color: #285AEB;
+    svg stop:nth-child(3) {
+      stop-color: #fd5949;
+    }
+
+    svg stop:nth-child(4) {
+      stop-color: #d6249f;
+    }
+
+    svg stop:nth-child(5) {
+      stop-color: #285AEB;
+    }
   }
 }

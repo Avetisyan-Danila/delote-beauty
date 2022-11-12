@@ -1,0 +1,22 @@
+.services-list {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  column-gap: 44px;
+}
+
+.services-list__item {
+  width: calc((100% / 3) - 44px);
+}
+
+.services-list__img {
+  width: 100%;
+}
+
+.services-list__title {
+  font-weight: 400;
+}
