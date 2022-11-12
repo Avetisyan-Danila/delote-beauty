@@ -1,7 +1,11 @@
 .page-body {
   font-family: "Cormorant Garamond", "Arial", sans-serif;
+  font-size: 27px;
+  line-height: 1.3;
   color: $white;
   background-color: $page-bg;
+
+  overflow-x: hidden;
 }
 
 .page-body.lock {
