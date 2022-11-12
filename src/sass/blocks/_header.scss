@@ -10,3 +10,36 @@
   justify-content: space-between;
   flex-wrap: wrap;
 }
+
+.header__logo {
+  transition: 0.4s ease;
+
+  &:hover {
+    transform: scale(1.08);
+  }
+}
+
+.header__instagram {
+  stop {
+    transition: 0.4s ease;
+  }
+  svg:hover stop:nth-child(1) {
+    stop-color: #fdf497;
+  }
+
+  svg:hover stop:nth-child(2) {
+    stop-color: #fdf497;
+  }
+
+  svg:hover stop:nth-child(3) {
+    stop-color: #fd5949;
+  }
+
+  svg:hover stop:nth-child(4) {
+    stop-color: #d6249f;
+  }
+
+  svg:hover stop:nth-child(5) {
+    stop-color: #285AEB;
+  }
+}
