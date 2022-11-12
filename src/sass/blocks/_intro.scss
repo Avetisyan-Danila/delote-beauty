@@ -1,0 +1,61 @@
+.intro {
+  position: relative;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+  width: 100vw;
+  height: 100vh;
+
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/intro/bg.jpg) no-repeat;
+  background-size: cover;
+}
+
+.intro__title {
+  margin: 0;
+
+  max-width: 515px;
+
+  @media (max-width: $xl) {
+    max-width: 400px;
+  }
+}
+
+.intro__scroll {
+  position: absolute;
+  bottom: 50px;
+  left: 50%;
+  transform: translateX(-50%);
+
+  display: flex;
+  align-items: center;
+
+  color: $white;
+  text-decoration: none;
+
+  &:hover {
+    color: $primary;
+
+    & svg rect {
+      stroke: $primary;
+    }
+
+    & svg circle {
+      fill: $primary;
+    }
+  }
+}
+
+.intro__scroll span {
+  transition: 0.4s ease;
+}
+
+.intro__scroll svg {
+  margin-right: 20px;
+}
+
+.intro__scroll svg rect,
+.intro__scroll svg circle {
+  transition: 0.4s ease;
+}

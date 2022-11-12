@@ -1,0 +1,23 @@
+.title {
+  &_large {
+    font-family: 'Garamond', 'Arial', sans-serif;
+    line-height: 1.2;
+    font-size: 72px;
+
+    @media (max-width: $xl) {
+      font-size: 56px;
+    }
+  }
+
+  &_medium {
+    font-family: 'Garamond', 'Arial', sans-serif;
+    line-height: 1.2;
+    font-size: 48px;
+  }
+
+  &_small {
+    font-family: 'Garamond', 'Arial', sans-serif;
+    line-height: 1.2;
+    font-size: 24px;
+  }
+}
