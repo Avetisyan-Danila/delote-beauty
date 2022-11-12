@@ -6,17 +6,39 @@
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
-  column-gap: 44px;
+  column-gap: 45px;
+  row-gap: 80px;
 }
 
 .services-list__item {
+  position: relative;
   width: calc((100% / 3) - 44px);
 }
 
 .services-list__img {
+  position: relative;
+
+  &:before {
+    content: '';
+    position: absolute;
+    z-index: -1;
+    top: -20px;
+    left: 20px;
+    width: 100%;
+    height: 100%;
+    border: 1px solid $primary;
+  }
+}
+
+.services-list__img img {
   width: 100%;
 }
 
+.services-list__img {
+  margin-bottom: 20px;
+}
+
 .services-list__title {
+  margin: 0;
   font-weight: 400;
 }
