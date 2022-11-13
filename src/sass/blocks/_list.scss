@@ -1,4 +1,4 @@
-.services-list {
+.list {
   margin: 0;
   padding: 0;
   list-style-type: none;
@@ -10,12 +10,12 @@
   row-gap: 80px;
 }
 
-.services-list__item {
+.list__item {
   position: relative;
-  width: calc((100% / 3) - 44px);
+  width: calc((100% / 3) - 40px);
 }
 
-.services-list__img {
+.list__img {
   position: relative;
 
   &:before {
@@ -30,15 +30,15 @@
   }
 }
 
-.services-list__img img {
+.list__img img {
   width: 100%;
 }
 
-.services-list__img {
+.list__img {
   margin-bottom: 20px;
 }
 
-.services-list__title {
+.list__title {
   margin: 0;
   font-weight: 400;
 }
