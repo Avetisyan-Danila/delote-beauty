@@ -1,0 +1,17 @@
+.tab-links {
+  position: relative;
+
+  display: flex;
+  align-items: center;
+  column-gap: 60px;
+  flex-wrap: wrap;
+}
+
+.tab-line {
+  position: absolute;
+  left: 0;
+  bottom: -3px;
+  height: 3px;
+  background-color: $primary;
+  transition: 0.4s ease;
+}
