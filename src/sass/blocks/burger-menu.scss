@@ -22,4 +22,8 @@
 
 .burger-menu:hover .burger-menu__line {
   background-color: $primary;
+
+  &:nth-child(2) {
+    transform: translateX(0px);
+  }
 }
