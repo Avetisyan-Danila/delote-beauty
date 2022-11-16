@@ -28,6 +28,14 @@
   }
 }
 
+.header__logo svg path {
+  transition: 0.4s ease;
+}
+
+.header__logo:hover svg path {
+  fill: $primary;
+}
+
 .header__bottom-line {
   position: absolute;
   bottom: 0;
