@@ -38,6 +38,10 @@ module.exports = {
       filename: "price.html",
       template: path.resolve(__dirname, 'src', 'price.html')
     }),
+    new HtmlWebpackPlugin({
+      filename: "contacts.html",
+      template: path.resolve(__dirname, 'src', 'contacts.html')
+    }),
     new MiniCssExtractPlugin({
       filename: '[name].[contenthash].css',
     })
