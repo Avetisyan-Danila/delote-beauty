@@ -35,7 +35,7 @@ module.exports = {
       template: path.resolve(__dirname, 'src', 'masters.html')
     }),
     new HtmlWebpackPlugin({
-      filename: "masters.html",
+      filename: "price.html",
       template: path.resolve(__dirname, 'src', 'price.html')
     }),
     new MiniCssExtractPlugin({
