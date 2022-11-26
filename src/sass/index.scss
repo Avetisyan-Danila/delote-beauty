@@ -10,22 +10,25 @@
 @import "blocks/visually-hidden";
 @import "blocks/container";
 @import "blocks/header";
+@import "extends/bottom-line";
 @import "blocks/instagram";
 @import "blocks/link";
 @import "blocks/nav-menu";
 @import "blocks/burger";
-@import "blocks/intro";
 @import "blocks/title";
 @import "blocks/content";
-@import "blocks/quote";
 @import "blocks/list";
-@import "blocks/partners";
-@import "blocks/our-works";
 @import "blocks/footer";
 @import "blocks/info-block";
 @import "blocks/side-menu";
+@import "blocks/tabs";
+
+@import "blocks/intro";
+@import "blocks/quote";
+@import "blocks/partners";
+@import "blocks/our-works";
 
 @import "blocks/masters";
 
-@import "extends/bottom-line";
-@import "blocks/tabs";
+@import "blocks/price";
+@import "blocks/price-item";
