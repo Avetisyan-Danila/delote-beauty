@@ -43,3 +43,13 @@ burger.addEventListener('click', () => {
     }, sideMenuAnimationDuration / 6)
   }
 })
+
+window.addEventListener('resize', () => {
+  if (burger.classList.contains('burger--active')) {
+    burger.style.left = `${sideMenu.getBoundingClientRect().left + sideMenuPaddingLeft}px`;
+    burgerStartPositionLeft = `${headerWrapper.getBoundingClientRect().right - burgerWidth}px`;
+  } else {
+    burgerStartPositionLeft = `${headerWrapper.getBoundingClientRect().right - burgerWidth}px`;
+    burger.style.left = burgerStartPositionLeft;
+  }
+})

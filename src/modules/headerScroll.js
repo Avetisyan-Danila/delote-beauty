@@ -5,11 +5,6 @@ const headerBottomLine = document.querySelector('.header__bottom-line');
 headerBottomLine.style.width = `${headerWrapper.offsetWidth}px`
 headerBottomLine.style.left = `${headerWrapper.getBoundingClientRect().left}px`;
 
-window.addEventListener('resize', () => {
-  headerBottomLine.style.width = `${headerWrapper.offsetWidth}px`
-  headerBottomLine.style.left = `${headerWrapper.getBoundingClientRect().left}px`;
-})
-
 window.addEventListener('scroll', () => {
   if (window.scrollY > 0) {
     header.classList.add('header--scroll');
@@ -20,4 +15,9 @@ window.addEventListener('scroll', () => {
     headerBottomLine.style.width = `${headerWrapper.offsetWidth}px`;
     headerBottomLine.style.left = `${headerWrapper.getBoundingClientRect().left}px`;
   }
+})
+
+window.addEventListener('resize', () => {
+  headerBottomLine.style.width = `${headerWrapper.offsetWidth}px`
+  headerBottomLine.style.left = `${headerWrapper.getBoundingClientRect().left}px`;
 })
