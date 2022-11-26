@@ -24,7 +24,7 @@ class SmoothScroll {
   }
 
   static getAllBlocks() {
-    return Array.from(document.querySelectorAll('a[href^="#"]'));
+    return Array.from(document.querySelectorAll('a[href^="#"]:not(.tab-link)'));
   }
 
   static initAllBlocks() {
