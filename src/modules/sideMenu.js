@@ -1,3 +1,5 @@
+import { getScrollBarWidth } from "./utils/getScrollBarWidth";
+
 const burger = document.querySelector('.burger');
 const sideMenu = document.querySelector('.side-menu');
 const headerWrapper = document.querySelector('.header__wrapper');
@@ -19,6 +21,7 @@ burger.style.zIndex = sideMenuZIndex;
 
 burger.addEventListener('click', () => {
   document.querySelector('body').classList.add('lock');
+  document.querySelector('body').style.paddingRight = `${getScrollBarWidth()}px`;
 
   sideMenu.classList.toggle('side-menu--opened');
 
@@ -35,6 +38,7 @@ burger.addEventListener('click', () => {
   } else {
     setTimeout(() => {
       document.querySelector('body').classList.remove('lock');
+      document.querySelector('body').style.paddingRight = '0px';
 
       burger.style.left = burgerStartPositionLeft;
       burger.style.pointerEvents = 'auto';

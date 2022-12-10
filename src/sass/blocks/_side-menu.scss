@@ -19,7 +19,7 @@
     top: 0;
     right: -100%;
 
-    width: 455px;
+    width: 400px;
     height: 100px;
 
     transition: 0.4s ease;
@@ -30,7 +30,7 @@
     right: 0;
 
     &:before {
-      right: 20px;
+      right: 40px;
     }
   }
 }
