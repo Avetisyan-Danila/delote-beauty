@@ -1,0 +1,13 @@
+.nav {
+  &--main {
+    @media (max-width: $sm) {
+      display: none;
+    }
+  }
+
+  &--side-menu {
+    @media (min-width: $largerSm) {
+      display: none;
+    }
+  }
+}

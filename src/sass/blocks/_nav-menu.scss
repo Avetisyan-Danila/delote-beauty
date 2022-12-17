@@ -7,3 +7,12 @@
   align-items: center;
   column-gap: 80px;
 }
+
+.nav--side-menu .nav-menu {
+  flex-direction: column;
+  align-items: flex-start;
+  column-gap: 0;
+  row-gap: 20px;
+
+  margin-bottom: 40px;
+}
