@@ -37,6 +37,11 @@
 
     border: 1px solid $primary;
     transition: 0.4s ease;
+
+    @media (max-width: $xl) {
+      top: -10px;
+      left: 10px;
+    }
   }
 }
 
