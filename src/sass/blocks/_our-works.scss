@@ -44,6 +44,10 @@
 
 .our-works__item {
   width: calc((100% / 3) - 16px);
+
+  @media (max-width: $md) {
+    width: calc(50% - 12px);
+  }
 }
 
 .our-works__img {

@@ -37,6 +37,10 @@
   &:hover {
     color: $primary;
   }
+
+  @media (max-width: $sm) {
+    display: none;
+  }
 }
 
 .intro__scroll span {

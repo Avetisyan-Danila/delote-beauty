@@ -1,12 +1,24 @@
 .spacer {
   padding-top: 100px;
 
-  &--large {
-    padding-top: 120px;
+  @media (max-width: $md) {
+    padding-top: 60px;
   }
 
   &--small {
     padding-top: 60px;
+
+    @media (max-width: $md) {
+      padding-top: 40px;
+    }
+  }
+
+  &--large {
+    padding-top: 120px;
+
+    @media (max-width: $md) {
+      padding-top: 80px;
+    }
   }
 }
 
