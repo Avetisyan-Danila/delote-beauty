@@ -1,4 +1,5 @@
 import {forEach, set} from 'lodash';
+import SmoothScroll from "./smoothScroll";
 
 const ClassName = {
   BLOCK: 'tabs',
@@ -58,9 +59,7 @@ class Tabs {
 
 // Инициализация;
 window.addEventListener('load', () => {
-  setTimeout(() => {
-    Tabs.initAllBlocks();
-  }, 500)
+  Tabs.initAllBlocks();
 })
 
 // Экспорт;
