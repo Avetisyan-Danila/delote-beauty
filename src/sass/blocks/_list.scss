@@ -45,12 +45,13 @@
   left: -4px;
 
   width: calc(100% + 8px);
-  height: calc(100% + 2px);
+  height: calc(100% + 9px);
   border-width: 5px;
 }
 
 .list__img img {
   width: 100%;
+  display: block;
 }
 
 .list__title {
