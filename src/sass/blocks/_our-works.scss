@@ -40,13 +40,17 @@
   flex-wrap: wrap;
   column-gap: 24px;
   row-gap: 16px;
+
+  @media (max-width: $md) {
+    justify-content: center;
+  }
 }
 
 .our-works__item {
   width: calc((100% / 3) - 16px);
 
   @media (max-width: $md) {
-    width: calc(50% - 12px);
+    width: calc(45% - 12px);
   }
 }
 

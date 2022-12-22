@@ -12,6 +12,10 @@
   @media (max-width: $md) {
     row-gap: 60px;
   }
+
+  @media (max-width: $sm) {
+    justify-content: center;
+  }
 }
 
 .list__item {
@@ -23,7 +27,7 @@
   }
 
   @media (max-width: $sm) {
-    width: 100%;
+    width: 80%;
   }
 }
 

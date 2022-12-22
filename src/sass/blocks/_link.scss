@@ -6,4 +6,8 @@
   text-decoration: none;
 
   @extend %bottom-line;
+
+  @media (max-width: $sm) {
+    font-size: 22px;
+  }
 }
