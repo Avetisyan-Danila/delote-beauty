@@ -10,4 +10,7 @@
 
 .page-body.lock {
   overflow: hidden;
+
+  // Fix запрета скролла для сафари
+  position: relative;
 }

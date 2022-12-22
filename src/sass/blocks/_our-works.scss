@@ -1,5 +1,9 @@
 .our-works__title {
   margin: 0 0 60px;
+
+  @media (max-width: $xs) {
+    margin: 0 0 40px;
+  }
 }
 
 .our-works__links {
@@ -51,6 +55,10 @@
 
   @media (max-width: $md) {
     width: calc(45% - 12px);
+  }
+
+  @media (max-width: $xs) {
+    width: 80%;
   }
 }
 

@@ -1,6 +1,10 @@
 .footer .info-block {
   @media (max-width: $md) {
     text-align: center;
+
+    &:not(:last-child) {
+      margin-bottom: 40px;
+    }
   }
 }
 

@@ -16,6 +16,10 @@
   @media (max-width: $sm) {
     justify-content: center;
   }
+
+  @media (max-width: $xs) {
+    row-gap: 40px;
+  }
 }
 
 .list__item {

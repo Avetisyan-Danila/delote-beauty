@@ -16,6 +16,13 @@
     padding: 100px 80px 40px 80px;
   }
 
+  @media (max-width: $xs) {
+    right: -150%;
+
+    width: 100%;
+    padding: 120px 30px 30px 30px;
+  }
+
   &:before {
     content: '';
 
@@ -29,6 +36,10 @@
 
     transition: 0.4s ease;
     background-color: $page-bg;
+
+    @media (max-width: $xs) {
+      width: 100%;
+    }
   }
 
   &--opened {
@@ -36,6 +47,10 @@
 
     &:before {
       right: 40px;
+
+      @media (max-width: $xs) {
+        right: 0;
+      }
     }
   }
 }

@@ -7,12 +7,20 @@
     @media (max-width: $xl) {
       font-size: 56px;
     }
+
+    @media (max-width: $xs) {
+      font-size: 36px;
+    }
   }
 
   &--medium {
     font-family: 'Garamond', 'Arial', sans-serif;
     line-height: 1.2;
     font-size: 48px;
+
+    @media (max-width: $xs) {
+      font-size: 32px;
+    }
   }
 
   &--small {
