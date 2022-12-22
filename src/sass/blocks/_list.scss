@@ -90,5 +90,7 @@
 }
 
 .list__item:hover .list__title {
-  color: $primary;
+  @media (min-width: $lg) {
+    color: $primary;
+  }
 }

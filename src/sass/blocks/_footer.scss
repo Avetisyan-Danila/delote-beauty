@@ -21,7 +21,9 @@
   transition: 0.4s ease;
 
   &:hover {
-    transform: scale(1.1);
+    @media (min-width: $lg) {
+      transform: scale(1.1);
+    }
   }
 }
 
@@ -30,7 +32,9 @@
 }
 
 .footer__logo:hover svg path {
-  fill: $primary;
+  @media (min-width: $lg) {
+    fill: $primary;
+  }
 }
 
 .footer__copyright {

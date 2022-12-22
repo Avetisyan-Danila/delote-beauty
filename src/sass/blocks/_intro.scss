@@ -44,7 +44,9 @@
   text-decoration: none;
 
   &:hover {
-    color: $primary;
+    @media (min-width: $lg) {
+      color: $primary;
+    }
   }
 
   @media (max-width: $sm) {
@@ -66,11 +68,15 @@
 }
 
 .intro__scroll:hover svg rect {
-  stroke: $primary;
+  @media (min-width: $lg) {
+    stroke: $primary;
+  }
 }
 
 .intro__scroll:hover svg circle {
-  fill: $primary;
+  @media (min-width: $lg) {
+    fill: $primary;
+  }
 }
 
 .intro__chevron-down {

@@ -22,16 +22,20 @@
 }
 
 .burger:hover .burger__line {
-  background-color: $primary;
+  @media (min-width: $lg) {
+    background-color: $primary;
 
-  &:nth-child(2) {
-    transform: translateX(0px);
+    &:nth-child(2) {
+      transform: translateX(0px);
+    }
   }
 }
 
 .burger--active:hover .burger__line {
-  &:nth-child(2) {
-    transform: translateX(0px) scale(0);
+  @media (min-width: $lg) {
+    &:nth-child(2) {
+      transform: translateX(0px) scale(0);
+    }
   }
 }
 

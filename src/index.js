@@ -1,4 +1,7 @@
 import './index.html';
+import './masters.html';
+import './price.html';
+import './contacts.html';
 import './sass/index.scss';
 
 import './modules/tabs';

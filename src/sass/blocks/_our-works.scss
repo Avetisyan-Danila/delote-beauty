@@ -19,7 +19,9 @@
   transition: 0.4s ease;
 
   &:hover {
-    color: $primary;
+    @media (min-width: $lg) {
+      color: $primary;
+    }
   }
 
   &.active {

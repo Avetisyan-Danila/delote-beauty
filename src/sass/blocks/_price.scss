@@ -1,3 +1,9 @@
+.price {
+  @media (max-width: $md) {
+    padding-top: 40px;
+  }
+}
+
 .price__title {
   margin: 0 0 60px;
 }
@@ -10,15 +16,29 @@
 
   &:nth-child(even) {
     flex-direction: row-reverse;
+
+    @media (max-width: $lg) {
+      flex-direction: column;
+    }
   }
 
   &:not(:last-child) {
     margin-bottom: 60px;
   }
+
+  @media (max-width: $lg) {
+    align-items: center;
+    flex-direction: column;
+  }
 }
 
 .price__img {
   max-width: 550px;
+  width: 100%;
+
+  @media (max-width: $lg) {
+    margin-bottom: 40px;
+  }
 }
 
 .price__list {
